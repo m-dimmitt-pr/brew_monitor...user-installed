@@ -1,9 +1,9 @@
-####Check out this sick command! ... SHOULD ALSO be able to change to 'uninstall'.
+####Check out this sick command! - works on my local machine. However, I do not have an extensive terminal history on this machine. Hopefully it works as length of history scales on other users computers.
 
 ##Terminal Script ... to Log user Homebrew ... installs and uninstalls.
 <pre> 
 prompt>
-history | grep 'brew install' | grep -v 'history'
+history | grep 'brew install' | grep -v 'history'; history | grep 'brew uninstall' | grep -v 'history';
 
 output>
     7  brew install elixir
