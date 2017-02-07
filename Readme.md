@@ -1,3 +1,11 @@
+<pre>
+how to unset bash history
+unset HISTSIZE 
+unset HISTFILESIZE
+shopt -s histappend
+</pre>
+
+
 ##Story: Why remember_Homebrew (Install/Uninstall) User_Decisions?
 "brew list" for homebrew, is great!
 "brew list" tells - (everything homebrew has done to get me there).
