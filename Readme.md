@@ -3,6 +3,8 @@ how to unset bash history
 unset HISTSIZE 
 unset HISTFILESIZE
 shopt -s histappend
+https://debian-administration.org/article/543/Bash_eternal_history
+http://unix.stackexchange.com/questions/17574/is-there-a-maximum-size-to-the-bash-history-file
 </pre>
 
 
